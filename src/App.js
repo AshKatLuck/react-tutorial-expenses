@@ -23,7 +23,7 @@ const expenses = [
   },
 ];
 
-function App() {
+const App = () => {
   return (
     <div>
       <h2>Let's get started!</h2>
@@ -36,6 +36,6 @@ function App() {
   //   React.createElement("h2", {}, "Let's get started!"),
   //   React.createElement(Expenses, { expenses: expenses })
   // );
-}
+};
 
 export default App;
